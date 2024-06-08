@@ -9,5 +9,6 @@ public class AppConfiguration {
     @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
+        
     }
 } 
